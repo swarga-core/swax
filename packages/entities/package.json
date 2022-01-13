@@ -1,0 +1,26 @@
+{
+  "name": "@swax/entities",
+  "version": "0.1.0",
+  "author": "Andrey 'Swarga' Nitsenko",
+  "description": "SwaxJS Entities",
+  "license": "MIT",
+  "private": false,
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config='../../jest.config.js' --rootDir='.'",
+    "test:watch": "jest --config='../../jest.config.js' --rootDir='.' --watch",
+    "test:coverage": "jest --config='../../jest.config.js' --rootDir='.' --coverage"
+  },
+  "devDependencies": {},
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
